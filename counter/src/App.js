@@ -21,7 +21,7 @@ function App() {
 
  return(
       <div className="App">
-          <h1>Simple Calculator</h1>
+          <h1 className="mainHeading">Simple Calculator</h1>
           {/* Passing Props to the counter component*/}
           <Counter count={count} increment={increment} decrement={decrement} reset={reset}/>
       </div>
